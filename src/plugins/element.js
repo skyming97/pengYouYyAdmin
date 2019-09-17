@@ -1,5 +1,31 @@
 import Vue from 'vue'
-import Element from 'element-ui'
+// 完整引入
+// import Element from 'element-ui'
+
+// 按需引入
+import { Button, Form, FormItem, Input, Container, Row, Col, Menu, MenuItem, Submenu, Breadcrumb, BreadcrumbItem, DatePicker, Select, Option } from 'element-ui'
+
 import '../element-variables.scss'
 
-Vue.use(Element)
+// Vue.use(Element)
+
+// 全局配置
+Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 };
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Row)
+Vue.use(Col)
+
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Submenu)
+
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+
+Vue.use(DatePicker)
+Vue.use(Select)
+Vue.use(Option)
