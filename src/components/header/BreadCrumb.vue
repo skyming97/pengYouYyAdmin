@@ -15,6 +15,6 @@ export default {
 
 <style scoped>
 .bread-box {
-  padding: 8px 0;
+  padding: 0 0 8px 10px;
 }
 </style>

@@ -1,0 +1,14 @@
+/* 滚动条样式 */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  /* 滚动条的滑块 */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 128, 128, 0.438);
+    border-radius: 2px;
+    cursor: pointer!important;
+  }
+  /* div::-webkit-scrollbar {
+  width: 0;
+  } */
+  
